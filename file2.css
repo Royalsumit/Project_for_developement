@@ -1,0 +1,129 @@
+/* styles.css */
+body
+{
+    background-color: rgba(11, 10, 10, 0.94);
+}
+.top-menu {
+    background-color: #333;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Syne', sans-serif;
+}
+
+.top-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-menu ul li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.top-menu ul li:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.submenu {
+    font-family: 'Syne', sans-serif;
+    display: none;
+    position: absolute;
+    background-color: #555;
+    padding: 10px;
+    z-index: 1;
+}
+
+.submenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    padding: 5px 0;
+}
+
+.submenu {
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submenu form {
+    margin-top: 10px;
+}
+
+.submenu label,
+.submenu input,
+.submenu textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.submenu button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.images  {
+    position: relative; 
+    display: inline-block; 
+  }
+  .oran {
+    position:absolute; 
+    width: 993px;
+    height: 354.3px;
+    top: 320px;
+    left: 447px;
+    z-index: 1;
+    opacity: 1;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+.overlay1{
+    /* height: 151px;
+    width: 689px; */
+    margin: 250px 115px;
+    z-index: 2;
+    opacity: 1;
+}
+.overlay2{
+    /* height: 144px;
+    width: 710; */
+    margin: 396px 424px;
+    z-index: 3;
+    opacity: 1;
+}
+.overlay4{
+    /* height: 103px;
+    width: 527px; */
+    margin: 505px 187px;
+    z-index: 4; 
+    opacity: 1;
+
+}
+  .overlay3{
+    position: absolute;
+    top: 103px;
+    left: 899px;
+    height: 654.95px;
+    width: 432px;
+    z-index: 5;
+    opacity: 1;
+
+  }
+  .star{
+    position: absolute;
+    height: 371px;
+    margin: 0 1010px;
+    width: 367px;
+
+  }
